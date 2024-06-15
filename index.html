@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, 
+						initial-scale=1.0"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <title>Gadget Galaxy</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="flex flex-col justify-center">
+    <div class="wrapper items-center">
+      <div class="contain">
+        <!-- nav-start -->
+        <nav
+          class="flex w-full justify-between items-center px-2 lg:px-0 h-[70px] bg-cyan-100"
+        >
+          <div
+            class="flex w-full justify-between items-center h-[29px] lg:h-[28px]"
+          >
+            <div class="bar-icon lg:hidden">
+              <svg
+                stroke="currentColor"
+                fill="none"
+                stroke-width="2"
+                viewBox="0 0 24 24"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                height="29"
+                width="29"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <line x1="3" y1="12" x2="21" y2="12"></line>
+                <line x1="3" y1="6" x2="21" y2="6"></line>
+                <line x1="3" y1="18" x2="21" y2="18"></line>
+              </svg>
+            </div>
+            <!-- ................ -->
+
+            <div class="log flex gap-1 items-center mr-[60px]">
+              <h1 class="text-[#111111] font-[700] leading-[1.5px]">Gadget</h1>
+              <span class="text-[#099ff5c9] font-[700] leading-[1.5px]">
+                Galaxy</span
+              >
+            </div>
+            <!-- ............... -->
+            <div class="ul hidden lg:block w-[308px] xl:w-[356px]">
+              <ul class="flex w-full justify-between">
+                <li class="text-[16px] text-[#133236] font-[500]">Home</li>
+                <li class="text-[16px] text-[#133236] font-[500]">
+                  Collections
+                </li>
+                <li class="text-[16px] text-[#133236] font-[500]">Cart</li>
+                <li class="text-[16px] text-[#133236] font-[500]">Wish List</li>
+              </ul>
+            </div>
+            <!-- .................. -->
+            <div class="icons-pic flex justify-between w-[106px]">
+              <div class="search-icon">
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  height="26"
+                  width="26"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill="none"
+                    stroke-miterlimit="10"
+                    stroke-width="32"
+                    d="M221.09 64a157.09 157.09 0 1 0 157.09 157.09A157.1 157.1 0 0 0 221.09 64z"
+                  ></path>
+                  <path
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-miterlimit="10"
+                    stroke-width="32"
+                    d="M338.29 338.29 448 448"
+                  ></path>
+                </svg>
+              </div>
+              <div class="curt-icons">
+                <svg
+                  stroke="currentColor"
+                  fill="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 24 24"
+                  height="28"
+                  width="28"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <g id="Shopping_Cart">
+                    <path
+                      d="M17.437,19.934c0,0.552 -0.448,1 -1,1c-0.552,0 -1,-0.448 -1,-1c0,-0.552 0.448,-1 1,-1c0.552,0 1,0.448 1,1Zm-11.217,-4.266l-0.945,-10.9c-0.03,-0.391 -0.356,-0.693 -0.749,-0.693l-0.966,-0c-0.276,-0 -0.5,-0.224 -0.5,-0.5c0,-0.276 0.224,-0.5 0.5,-0.5l0.966,-0c0.916,-0 1.676,0.704 1.746,1.617l0.139,1.818l13.03,-0c0.885,-0 1.577,0.76 1.494,1.638l-0.668,7.52c-0.121,1.285 -1.199,2.267 -2.489,2.267l-9.069,0c-1.29,0 -2.367,-0.981 -2.489,-2.267Zm0.274,-8.158l0.722,8.066c0.073,0.77 0.719,1.359 1.493,1.359l9.069,0c0.774,0 1.42,-0.589 1.493,-1.359l0.668,-7.518c0.028,-0.294 -0.203,-0.548 -0.498,-0.548l-12.947,-0Zm4.454,12.424c-0,0.552 -0.448,1 -1,1c-0.552,0 -1,-0.448 -1,-1c-0,-0.552 0.448,-1 1,-1c0.552,0 1,0.448 1,1Z"
+                    ></path>
+                  </g>
+                </svg>
+              </div>
+              <div class="img">
+                <img
+                  class="h-[28ppx] w-[28px] rounded-full"
+                  src="public/img/user-1.jpeg"
+                  alt="#"
+                />
+              </div>
+            </div>
+            <!-- ........................ -->
+          </div>
+        </nav>
+        <!-- nav-end -->
+      </div>
+      <!-- contain-end -->
+      <div
+        class="wrapper h-screen lg:hidden bg-cover bg-center items-center"
+        style="background-image: url(public/all-img-icons/mob-slide-3.png)"
+      >
+        <!-- ............ -->
+        <div
+          class="contain bg-blue-200 px-6 pt-6 w-full text-center justify-around bg-no-repeat"
+        >
+          <div class="">
+            <p class="text-[17px] text-[#02a9f7] font-semibold mt-[56px]">
+              Best Selling
+            </p>
+            <h1 class="text-[24px] my-2 text-[#111111] font-bold">
+              Tablet with Pin
+            </h1>
+          </div>
+          <p class="text-[14px] text-[#303030]">
+            Making them suitable for takes such as note taking as graphic design
+          </p>
+        </div>
+        <button
+          class="w-[109px] h-[40px] mt-[20px] bg-[#02a9f7] text-[#ffffff] rounded-lg font-semibold"
+        >
+          Shop Now
+        </button>
+        <!-- c.................. -->
+      </div>
+
+      <!-- ...........img 1    end....... -->
+      <div
+        class="wrapper-2 lg:h-screen lg:w-full w-0 h-0 bg-cover bg-center flex items-center justify-around"
+        style="background-image: url(public/all-img-icons/hero-3.png)"
+      >
+        <!-- ............ -->
+        <div class="contain mt-[30px] hidden lg:block px-6 pt-6 w-full">
+          <div class="">
+            <p class="text-[17px] text-[#02a9f7] font-semibold mt-[56px]">
+              Best Selling
+            </p>
+            <h1
+              class="text-[24px] xl:text-[50px] my-2 text-[#111111] font-bold"
+            >
+              Tablet with Pin
+            </h1>
+          </div>
+          <p class="text-[14px] xl:text-[16px] text-[#303030]">
+            Making them suitable for takes such as note taking as graphic design
+          </p>
+          <button
+            class="w-[109px] h-[40px] mt-[20px] bg-[#02a9f7] text-[#ffffff] rounded-lg font-semibold"
+          >
+            Shop Now
+          </button>
+        </div>
+
+        <!-- c.................. -->
+      </div>
+      <!-- ..............img  2...end.... -->
+    </div>
+    <!-- .........................................end-hero sec -->
+    <div
+      class="w-full flex items-center justify-around bg-slate-300 mt-[48px] xl:mt-[80px]"
+    >
+      <div
+        class="contain flex mt-[48px] justify-evenly md:justify-center lg:justify-between lg:mt-[80px]"
+      >
+        <div
+          class="w-full h-auto text-center lg:w-[207px] lg:h-[207px] xl:w-[298px] xl:h-[298px] hidden lg:block"
+        >
+          <img
+            class="w-full h-auto rounded-xl"
+            src="public/all-img-icons/landing-headphone.webp"
+            alt=""
+          />
+          <h1
+            class="text-[#111111] text-[18px] mt-2 font-medium hidden lg:block"
+          >
+            Headphone
+          </h1>
+        </div>
+
+        <div
+          class="w-[181px] h-auto text-center lg:w-[207px] lg:h-[207px] xl:w-[298px] xl:h-[298px] md:hidden lg:block"
+        >
+          <img
+            class="w-full h-auto rounded-xl"
+            src="public/all-img-icons/landing-earpods.webp"
+            alt=""
+          />
+          <h1 class="text-[#111111] text-[18px] mt-2 font-medium">Earphone</h1>
+        </div>
+
+        <div
+          class="w-[181px] h-auto text-center lg:w-[207px] lg:h-[207px] xl:w-[298px] xl:h-[298px] md:hidden lg:block"
+        >
+          <img
+            class="w-full h-auto rounded-xl"
+            src="public/all-img-icons/landing-cellphone.webp"
+            alt=""
+          />
+          <h1 class="text-[#111111] text-[18px] mt-2 font-medium">
+            Smartphone
+          </h1>
+        </div>
+
+        <div
+          class="w-full h-auto text-center md:w-[657px] md:h-[657px] lg:w-[207px] lg:h-[207px] xl:w-[298px] xl:h-[298px] hidden md:block"
+        >
+          <img
+            class="w-full h-auto rounded-xl"
+            src="public/all-img-icons/landing-watch.webp"
+            alt=""
+          />
+          <h1 class="text-[#111111] text-[18px] mt-2 font-medium">Watch</h1>
+        </div>
+      </div>
+      <!-- contain-end -->
+    </div>
+    <!-- wrapper-2-end -->
+
+    <div
+      class="w-full flex flex-col items-center justify-around md:mb-6 lg:mb-[40px] mt-[48px] xl:mt-[80px]"
+    >
+      <div class="mb-[48px]">
+        <h1 class="text-[#111111] text-[24px] xl:text-[36px] font-bold">
+          Featured Collection
+        </h1>
+      </div>
+
+      <div
+        class="contain flex justify-evenly md:justify-center lg:justify-between"
+      >
+        <div
+          class="w-full h-auto text-center lg:w-[207px] lg:h-[207px] xl:w-[298px] xl:h-[298px] hidden lg:block"
+        >
+          <img
+            class="w-full h-auto rounded-xl"
+            src="public/img/featured-cc-camera-5.webp"
+            alt=""
+          />
+          <h1
+            class="text-[#111111] text-[18px] mt-2 font-medium hidden lg:block"
+          >
+            5MP Dome CC Camera
+          </h1>
+          <h1 class="text-[#111111] text-[18px] font-medium">$15000/-</h1>
+        </div>
+
+        <div
+          class="w-[181px] h-auto text-center lg:w-[207px] lg:h-[207px] xl:w-[298px] xl:h-[298px] md:hidden lg:block"
+        >
+          <img
+            class="w-full h-auto rounded-xl"
+            src="public/img/featured-bluetooth-speaker-6.webp"
+            alt=""
+          />
+          <h1 class="text-[#111111] text-[18px] mt-2 font-medium">
+            Bluetooth Speaker
+          </h1>
+          <h1 class="text-[#111111] text-[18px] font-medium">$11000/-</h1>
+        </div>
+
+        <div
+          class="w-[181px] h-auto text-center lg:w-[207px] lg:h-[207px] xl:w-[298px] xl:h-[298px] md:hidden lg:block"
+        >
+          <img
+            class="w-full h-auto rounded-xl"
+            src="public/img/featured-laptop-7.webp"
+            alt=""
+          />
+          <h1 class="text-[#111111] text-[18px] mt-2 font-medium">
+            HX 12 Note Pro
+          </h1>
+          <h1 class="text-[#111111] text-[18px] font-medium">$80000/-</h1>
+        </div>
+
+        <div
+          class="w-full h-auto items-center text-center md:w-[657px] md:h-[657px] lg:w-[207px] lg:h-[207px] xl:w-[298px] xl:h-[298px] hidden md:block"
+        >
+          <img
+            class="w-full h-auto rounded-xl"
+            src="public/img/featured-fan-8.png"
+            alt=""
+          />
+          <h1 class="text-[#111111] text-[18px] mt-2 font-medium">
+            Rechargeable Fan
+          </h1>
+
+          <h1 class="text-[#111111] text-[18px] font-medium">$5000/-</h1>
+        </div>
+      </div>
+    </div>
+    <div class="mt-[24px] md:mt-[30px] flex items-center w-full justify-around">
+      <button
+        class="w-[109px] h-[40px] mt-[24px] bg-[#02a9f7] text-[#ffffff] rounded-lg font-semibold"
+      >
+        See More
+      </button>
+    </div>
+
+    <div class="wrapper-2">
+      <div class="contain mt-[48px] xl:mt-[80px] w-full flex items-center">
+        <div
+          class="grid grid-cols-1 gap-5 w-full md:grid-cols-2 lg:grid-cols-3"
+        >
+          <div class="w-full">
+            <img
+              class="rounded-xl w-full h-auto"
+              src="public/img/electronics-banner-1.webp"
+              alt=""
+            />
+          </div>
+          <div class="w-full">
+            <img
+              class="rounded-xl w-full h-auto"
+              src="public/img/electronics-banner-2.webp"
+              alt=""
+            />
+          </div>
+          <div class="w-full">
+            <img
+              class="rounded-xl w-full h-auto"
+              src="public/img/electronics-banner-3.webp"
+              alt=""
+            />
+          </div>
+        </div>
+        <!-- ,............ -->
+
+        <!-- contain-end -->
+      </div>
+    </div>
+    <!-- ..........sec 3.......end -->
+    <div class="wrapper-2 mt-[48px] xl:mt-[80px]bg-[#ebebeb] w-full bg-[#ebebeb]">
+      <div class="contain py-[80px]  flex items-center flex-col lg:flex-row justify-between">
+
+        <div class="w-full lg:w-[50%]">
+          <div class="w-full"><h4 class="w-full text-[16px] text-[#111111] font-semibold">Exclusive Collection</h4></div>
+          <div class=""><h1 class="w-full text-[36px] my-[18px] text-[#111111] font-bold">3D Video Game Controller</h1></div>
+          <div class=""><p class="w-full text-[15px] text-[#303030] ">When referring to a "3D video game controller," it's important 
+            to note that most modern video game controllers are designed to operate in three dimensions,
+             allowing users to navigate characters and objects within a 3D virtual space.
+            However, if you are specifically looking for controllers that incorporate 3D 
+            spatial tracking or other advanced features, here are a few examples:</p></div>
+            <div class="mt-[24px] md:mt-[30px] flex items-center w-full ">
+              <button
+                class="w-[109px] h-[40px] mt-[24px] bg-[#02a9f7] text-[#ffffff] rounded-lg font-semibold"
+              >
+                Shop Now
+              </button>
+            </div>
+        </div>
+        
+        <!-- ,....text end........ -->
+        <div class=" w-full lg:w-[50%]"><img class="w-full rounded-lg  mt-6" src="public/img/video-game-controller-game.webp" alt=""></div>
+ <!-- ,....img end........ -->
+
+        <!-- contain-end -->
+      </div>
+    </div>
+    <!-- sec-4-end -->
+  </body>
+</html>
