@@ -79,23 +79,25 @@ body {
   @apply text-white;
 }
 .wrapper {
-  @apply w-full flex flex-col  ; 
+  @apply w-full flex flex-col;
 }
 
-.wrapper-2{
-  @apply w-full flex justify-center  items-center ;  
+.wrapper-2 {
+  @apply w-full flex justify-center  items-center;
 }
 .contain {
-  @apply w-full md:w-[729px] lg:w-[972px] xl:w-[1290px]
-    
-  
-  ;
+  @apply w-full md:w-[729px] lg:w-[972px] xl:w-[1290px];
+}
+.game {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url(/public/img/electronics-banner-2.webp);
+  @apply w-full h-auto;
 }
 
 @media screen {
-  
 }
-
 
 /* .wrapper {
   @apply flex w-full flex-col  items-center justify-center;
