@@ -3,6 +3,7 @@
 @tailwind utilities;
 
 body {
+
   .roboto-thin {
     font-family: "Roboto", sans-serif;
     font-weight: 100;
@@ -96,8 +97,27 @@ body {
   @apply w-full h-auto;
 }
 
-@media screen {
+@media (max-width: 320px) and (min-width: 0px) {
+  .only {
+    width: 136px;
+  }
 }
+@media (max-width: 375px) and (min-width: 321px) {
+  .only {
+    width: 150px;
+  }
+}
+
+@media (max-width: 425px) and (min-width: 375px) {
+  .only {
+    width: 175px;
+  }
+}
+/* @media (max-width:420px) and (min-width:350px){
+  .only {
+    width:181px;
+  }
+} */
 
 /* .wrapper {
   @apply flex w-full flex-col  items-center justify-center;
